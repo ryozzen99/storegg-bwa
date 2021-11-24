@@ -29,6 +29,21 @@
       }
     }],
     "react/react-in-jsx-scope": "off",
-    "react/function-component-definition" : "off"
+    "react/function-component-definition" : "off",
+    "import/extensions": ["error", "ignorePackages", {
+      "ts": "never",
+      "tsx": "never",
+      "js": "never",
+      "jsx": "never",
+      "mjs": "never"
+    }],
+    "jsx-a11y/anchor-is-valid" : "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
   }
 }
