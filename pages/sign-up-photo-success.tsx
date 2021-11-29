@@ -1,18 +1,22 @@
-import Image from 'next/image';
-
-export default function SignUpPhoto() {
+export default function SignUpPhotoSuccess() {
   return (
-    <section className="sign-up-photo mx-auto pt-lg-227 pb-lg-227 pt-130 pb-50">
+    <section className="sign-up-photo-success mx-auto pt-lg-227 pb-lg-227 pt-130 pb-50">
       <div className="container mx-auto">
         <form action="">
           <div className="form-input d-md-block d-flex flex-column">
             <div>
               <div className="mb-20">
                 <div className="image-upload text-center">
-                  <label htmlFor="avatar">
-                    <Image src="/icon/upload.svg" width={120} height={120} />
+                  <label htmlFor="file-input">
+                    <img
+                      src="/img/avatar-1.png"
+                      width="120"
+                      height="120"
+                      className="rounded-circle"
+                      alt=""
+                    />
                   </label>
-                  <input id="avatar" type="file" name="avatar" accept="image/png, image/jpeg" />
+                  <input id="file-input" type="file" />
                 </div>
               </div>
               <h2 className="fw-bold text-xl text-center color-palette-1 m-0">Shayna Anne</h2>
@@ -21,7 +25,6 @@ export default function SignUpPhoto() {
                 <label htmlFor="category" className="form-label text-lg fw-medium color-palette-1 mb-10">
                   Favorite
                   Game
-
                 </label>
                 <select
                   id="category"
@@ -37,24 +40,21 @@ export default function SignUpPhoto() {
                 </select>
               </div>
             </div>
-
             <div className="button-group d-flex flex-column mx-auto">
               <a
                 className="btn btn-create fw-medium text-lg text-white rounded-pill mb-16"
-                href="/sign-up-photo-success"
+                href="/sign-up-success"
                 role="button"
               >
                 Create My Account
-
               </a>
               <a
                 className="btn btn-tnc text-lg color-palette-1 text-decoration-underline pt-15"
-                href="/#"
+                href="#"
                 role="button"
               >
                 Terms &
                 Conditions
-
               </a>
             </div>
           </div>

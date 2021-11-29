@@ -238,12 +238,11 @@ export default function CompleteCheckout() {
         <div className="button-group d-flex flex-column mx-auto">
           <a
             className="btn btn-dashboard fw-medium text-lg text-white rounded-pill mb-16"
-            href="/member/overview"
+            href="/member"
             role="button"
           >
             My
             Dashboard
-
           </a>
           <a
             className="btn btn-whatsapp fw-medium text-lg color-palette-1 rounded-pill"
@@ -252,7 +251,6 @@ export default function CompleteCheckout() {
           >
             WhatsApp
             ke Admin
-
           </a>
         </div>
       </div>
