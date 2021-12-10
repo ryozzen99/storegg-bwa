@@ -1,8 +1,10 @@
 import React from 'react';
+import Sidebar from '../../../components/organisms/Sidebar';
 
 export default function Transactions() {
   return (
     <section className="transactions overflow-auto">
+      <Sidebar activeMenu="transactions" />
       <main className="main-wrapper">
         <div className="ps-lg-0">
           <h2 className="text-4xl fw-bold color-palette-1 mb-30">My Transactions</h2>

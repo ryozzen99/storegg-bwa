@@ -1,6 +1,9 @@
+import Sidebar from '../../../components/organisms/Sidebar';
+
 export default function TransactionsDetail() {
   return (
     <section className="transactions-detail overflow-auto">
+      <Sidebar />
       <main className="main-wrapper">
         <div className="ps-lg-0">
           <h2 className="text-4xl fw-bold color-palette-1 mb-30">Details #GG001</h2>
